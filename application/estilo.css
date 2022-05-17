@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-texto: #fff;
+    --color-texto-h1: goldenrod;
+    --color-mensagem: red;
+    --color-table: rgb(51, 144, 51);
+    --color-table-2: rgb(65, 107, 65);
+    
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+body{
+
+   
+    font-size: 30px;
+    padding: 40px 0;
+    text-align: center;
+    background: var(--color-table);
+}
+
+h1{
+    font-size: 40;
+    color: var(--color-texto-h1); 
+    padding: 40px 0;
+}
+p{
+    padding: 20px 0;
+    color: var(--color-texto);
+}
+.button{
+     width: 200px;
+     height: 30px;
+     padding: 0 10px 0 10px;
+     border-radius: 3px;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+     color: var(--color-table);
+     background: var(--color-texto-h1);
+     border: none;
+     margin-bottom: 4px;
+     margin-top: 4px;
+}
+
+#message-el{
+
+    font-style: italic;
+}
